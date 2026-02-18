@@ -22,4 +22,5 @@ Imputation: Handled missing values (~1.4% to 3.2% per column) using Median for n
 (NumPy)Implemented forward propagation, cross-entropy loss, and backpropagation using only NumPy .Compared Sigmoid vs. ReLU activation functions over 200+ iterations.+1
 ## Part C: Feature Attribution
 Derived analytical gradients of the loss with respect to input features ($\frac{\partial\mathcal{L}}{\partial x_i}$) to rank feature importance.+1Verified that amenity_score and neighbourhood_group (Manhattan) are the most dominant predictors.Part D: Generalization AnalysisEvaluated the model on the held-out test.csv dataset.Analyzed the "Generalization Gap" by comparing training, validation, and test accuracies.
-## Author Shujat Khan - Roll No: 25280086 MS-AI Candidate, LUMS
+## Author 
+Shujat Khan - Roll No: 25280086 MS-AI Candidate, LUMS
